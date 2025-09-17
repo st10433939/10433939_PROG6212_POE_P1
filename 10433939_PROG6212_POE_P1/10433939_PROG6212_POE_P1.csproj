@@ -7,4 +7,11 @@
     <RootNamespace>_10433939_PROG6212_POE_P1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Claim\" />
+    <Folder Include="Views\Document\" />
+    <Folder Include="Views\Coordinator\" />
+    <Folder Include="Views\Manager\" />
+  </ItemGroup>
+
 </Project>
