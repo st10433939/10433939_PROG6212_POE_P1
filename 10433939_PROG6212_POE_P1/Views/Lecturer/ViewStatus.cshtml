@@ -1,0 +1,66 @@
+﻿﻿@{
+ViewBag.Title = "Claim Details";
+Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav class="mb-4">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item"><a href="/">Home</a></li>
+		<li class="breadcrumb-item"><a href="/Lecturer">My Claims</a></li>
+		<li class="breadcrumb-item active">Claim Details</li>
+	</ol>
+</nav>
+
+<div class="row">
+	<div class="col-lg-8">
+		<div class="card">
+			<div class="card-header d-flex justify-content-between">
+				<h4>Details of Claim</h4>
+				<span class="badge bg-warning">Pending Review</span>
+			</div>
+			<div class="card-body">
+				<div class="row mb-3">
+					<div class="col-sm-3"><strong>ClaimID</strong></div>
+					<div class="col-sm-9">ClaimID_1</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col-sm-3"><strong>Date</strong></div>
+					<div class="col-sm-9">09/17/2025</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col-sm-3"><strong>Amount</strong></div>
+					<div class="col-sm-9">R 90 000</div>
+				</div>
+				<div class="row mb-3">
+					<div class="col-sm-3"><strong>LecturerID</strong></div>
+					<div class="col-sm-9">LecturerID_1</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-4">
+		<div class="card">
+			<div class="card-header">
+				<h5>Supporting Documents</h5>
+			</div>
+			<div class="card-body">
+				<div class="list-group list-group-flush">
+					<div class="list-group-item d-flex justify-content-between align-items-center">
+						Doc_ID_1
+						<a href="#" class="btn btn-sm btn-outline-primary">View</a>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center">
+						Doc_ID_2
+						<a href="#" class="btn btn-sm btn-outline-primary">View</a>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center">
+						Doc_ID_3
+						<a href="#" class="btn btn-sm btn-outline-primary">View</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

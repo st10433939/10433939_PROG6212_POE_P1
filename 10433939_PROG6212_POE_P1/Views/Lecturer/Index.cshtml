@@ -1,0 +1,43 @@
+﻿﻿@{
+ViewBag.Title = "My Claims";
+Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+	<h2> My Claims</h2>
+	<a href="/Lecturer/SubmitClaim" class="btn btn-primary"> + Create Claim </a>
+</div>
+
+<!--Table-->
+<div class="card">
+	<div class="card-body">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Date</th>
+					<th>Amount</th>
+					<th>LecturerID</th>
+					<th>DocumentID</th>
+					<th>Status</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>ClaimID_1</td>
+					<td>09/17/2025</td>
+					<td>90000</td>
+					<td>LecturerID_1</td>
+					<td>Doc_ID_1</td>
+					<td><span class="badge bg-warning">Pending</span></td>
+					<td>
+						<a href="/Lecturer/ViewStatus/1" class="btn btn-sm btn-outline-primary">
+							View Details
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

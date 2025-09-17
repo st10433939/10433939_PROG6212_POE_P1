@@ -12,5 +12,9 @@ namespace _10433939_PROG6212_POE_P1.Controllers
         {
             return View();
         }
+        public IActionResult ViewStatus(int id)
+        {
+            return View();
+        }
     }
 }
