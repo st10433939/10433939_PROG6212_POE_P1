@@ -3,6 +3,7 @@
     public class Claim
     {
         public int Id { get; set; }
+        public string LecturerName { get; set; }
         public int HoursWorked { get; set; }
         public int HourlyRate { get; set; }
         public string AdditionalNotes { get; set; }
